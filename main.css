@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,39 +6,42 @@
 }
 
 html {
-    overflow-x: hidden ;
+    overflow-x: hidden;
 
 
 }
 
 .container {
-max-width: 1024px;
-width: 100%;
-margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
 
 }
 
-header, footer {
+header,
+footer {
     background-color: #192a56;
-    padding-top: 16px ;
+    padding-top: 16px;
     color: #ffff;
 }
-header{
-position: sticky;
-top: 0;
-left: 0;
-z-index: 1
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1
 }
 
-header > .container,
-footer > .container{
+header>.container,
+footer>.container {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
 }
+
 nav {
     background-color: #575fcf;
-    padding:  16px 0 ;
+    padding: 16px 0;
     display: none;
 }
 
@@ -51,16 +54,17 @@ nav li {
     text-transform: uppercase;
 }
 
-nav li a{
+nav li a {
     color: #ffff;
     text-decoration: none;
 }
 
 .menu-hamburguer {
-width: 32px;
-cursor: pointer;
+    width: 32px;
+    cursor: pointer;
 }
-.menu-hamburguer span{
+
+.menu-hamburguer span {
     height: 2px;
     width: 100%;
     background-color: #ffff;
@@ -72,40 +76,43 @@ cursor: pointer;
     display: flex;
 }
 
-#sobre{
- /*   max-width: 100px;*/
+#sobre {
+    /*   max-width: 100px;*/
     margin-right: 0px;
-    }
+}
 
-section{
+section {
     padding: 48px 0;
 }
-section h2{
+
+section h2 {
     margin-bottom: 16px;
 }
 
-.lista-veiculos{
-flex-wrap: wrap;
+.lista-veiculos {
+    flex-wrap: wrap;
 }
+
 .lista-veiculos li {
     list-style: none;
-    max-width: 30%;  
-    margin-bottom: 24px;  
+    max-width: 30%;
+    margin-bottom: 24px;
 }
-.lista-veiculos li img{
-max-width: 100%;
+
+.lista-veiculos li img {
+    max-width: 100%;
 
 }
 
-.lista-veiculos li h3{
-margin: 16px 0;
+.lista-veiculos li h3 {
+    margin: 16px 0;
 }
 
 .item-central {
     margin: 0 5%;
 }
 
-button{
+button {
     display: block;
     width: 100%;
     padding: 8px 0;
@@ -120,29 +127,29 @@ button{
 }
 
 .price {
-margin: 16px 0;
-display:block;
+    margin: 16px 0;
+    display: block;
 
 
 }
 
-.price p{
+.price p {
     text-decoration: line-through;
     font-size: 14px;
     color: #ccc;
 }
 
-.form-campo{
+.form-campo {
     margin-bottom: 16px;
 }
 
-.form-campo label{
+.form-campo label {
     font-weight: bold;
     display: block;
 }
 
 .form-campo input,
-.form-campo textarea{
+.form-campo textarea {
     width: 100%;
     display: block;
     padding: 8px;
@@ -151,22 +158,21 @@ display:block;
 .form-campo textarea {
     resize: none;
     height: 120px;
-    }
+}
 
-    form {
-        max-width: 360px;
-    }
+form {
+    max-width: 360px;
+}
 
-    form button{
-        max-width: 120px;
-    }
+form button {
+    max-width: 120px;
+}
 
-    footer li{
-        list-style: none;
-        margin-left: 16px;
-    }
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
 
-    footer li img{
-        height: 32px;
-    }
-
+footer li img {
+    height: 32px;
+}
